@@ -1,0 +1,843 @@
+    
+#slideshow img { display: none }
+#slideshow img.first { display: block }
+
+.service-inner {
+    background-color:#F6FFFB;
+    padding: 1px 10px;
+    height:100%;
+    display:block;
+    min-height: 310px;
+    position:relative;
+    margin-bottom: 10px;
+    border-radius:10px;
+    border:1px solid;
+}
+.girl_service {
+    height: 139px;
+}
+.girl_service_inrands {
+    position: relative;
+    float: right;
+    min-height: 139px;
+    min-width: 111px;
+    background: no-repeat url(../img/services/Supplier_Girl-34.png) center;
+    margin-right: 10px;        
+}
+.girl_service_outrands {
+    position: relative;
+    float: right;
+    min-height: 139px;
+    min-width: 121px;
+    background: no-repeat url(../img/services/Supplier_Girl-73.png) center;
+}
+.girl_service_petrands {
+    position: relative;
+    float: right;
+    min-height: 139px;
+    min-width: 111px;
+    background: no-repeat url(../img/services/Supplier_Girl-91dogcat1.png) center;
+    margin-right: 10px;     
+}
+.girl_service_healthrands {
+    position: relative;
+    float: right;
+    min-height: 139px;
+    min-width: 121px;
+    background: no-repeat url(../img/services/Supplier_Girl-41.png) center;
+}
+.service-container {
+    display: block;
+    float: left;
+    position: relative;
+}
+.service-container ul li {
+    margin: 0 0 10px 10px;
+}
+.service-container ul li:before {
+    content:"-";
+    position:absolute;
+    font-weight:700;
+    left:8px;
+    color:#761622;
+}
+.my_header {
+    color: #F3A481;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.min_hour {
+    font-size: 12px;
+    font-style: italic;
+}
+.text_right {
+    text-align: right;
+}
+
+table tr td {
+    padding: 10px;  
+}
+
+.table_td_width {
+    width: 100%;
+}
+
+.tr_bottom_border {
+    border-bottom: 1px solid #761622;
+}
+
+
+html { 
+    font-size: 62.5%; 
+    font-weight:400;
+    background-color:#5C2128;
+} 
+body {
+    font-size: 14px; font-size: 1.4rem;
+    font-family: 'Merriweather Sans',Trebuchet MS, Helvetica, sans-serif;
+    background-color:#fff;
+}
+h1,.h1   { font-size: 30px; font-size: 3rem; } /* =24px */
+h2,.h2   { font-size: 26px; font-size: 2.6rem; }
+h3,.h3   { font-size: 22px; font-size: 2.2rem; }
+h4,.h4   { font-size: 20px; font-size: 2rem; }
+h5,.h5   { font-size: 18px; font-size: 1.8rem; }
+h6,.h6   { font-size: 16px; font-size: 1.6rem; }
+hr {
+    border-color:#98efde;
+    display:block;
+    clear:both;
+}
+p {
+    font-size: 14px; font-size: 1.4rem;
+    margin-bottom:10px;
+}
+a {
+    text-decoration:none !important;
+    color:#761622;
+}
+blockquote {
+    border-left: 5px solid #99e0be;
+}
+.cycle-slideshow {
+    margin: 0px auto;
+    width: 280px;
+}
+.img-center {
+    margin:0 auto;
+}
+.row {
+    position:relative;
+}
+.IRE-underline {
+    border-bottom: 1px #761622 solid;
+    padding:10px;
+    box-shadow: 0px 10px 15px -15px #3a2225;
+}
+.IRE-header {
+    height:92px;
+}
+.IRE-logo {
+    height: 93px;
+    width: 364px;
+    background-position: -3px 8px;
+    display:block;
+    position:relative;
+}
+.IRE-header-sm-list,.IRE-header-contact {
+    position:relative;
+    float:right;
+    clear:both;
+    display:block;
+}
+.IRE-header-sm-list {
+    margin-top:10px;
+}
+.IRE-header-sm-list li {
+    float:left;
+    position:relative;
+    margin: 0 5px;
+}
+.IRE-header-sm-list li a {
+    display:block;
+    height:40px;
+    width:40px;
+    border-radius:30px;
+    background-color:#5c2128;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.IRE-header-sm-list li a:hover {
+    -webkit-transition: all 0.2s ease-out;
+    -webkit-transform: scale(1.1);
+    -moz-transition: all 0.2s ease-out;
+    -moz-transform: scale(1.1);
+    -o-transition: all 0.2s ease-out;
+    -o-transform: scale(1.1);
+    transition: all 0.2s ease-out;
+    transform: scale(1.1);
+}
+.sm-facebook {
+    background-position:0px -137px;
+}
+.sm-facebook:hover {
+    background-color: #4A6EA9;
+}
+.sm-twitter {
+    background-position:-38px -137px;
+}
+.sm-twitter:hover {
+    background-color: #20B8FF;
+}
+.sm-pinterest {
+    background-position:-78px -137px;
+}
+.sm-pinterest:hover {
+    background-color: #B93936;
+}
+.sm-email {
+    background-position:-116px -139px;
+}
+.sm-email:hover {
+    background-color: #261c1c;
+}
+.IRE-navigation {
+    z-index:10;
+    border-bottom:1px #98efde solid;
+    box-shadow:0px 10px 15px -15px #3a2225;
+}
+.IRE-nav-list {
+    height:47px;
+    float:left;
+}
+.IRE-nav-list li {
+    float:left;
+    position:relative;
+    padding:7px;
+}
+.IRE-nav-list li a {
+    color:#761622;
+    padding:0 15px;
+    line-height:40px;
+    border-radius:25px;
+    display:block;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.IRE-nav-list li .active,.IRE-nav-list li a:hover {
+    background-color:#761622;
+    color:#ffffff;
+    text-decoration:none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.IRE-menu-expand {
+    display:none;
+}
+.IRE-font-hand {
+    font-family: 'Indie Flower';
+    font-weight:700;
+}
+.IRE-blog-link {
+    position:absolute;
+    right:0px;
+    bottom:-30px;
+    height:60px;
+    width:60px;
+    z-index:1;
+    line-height:60px;
+    text-align:center;
+    font-weight:700;
+    font-size:22px;font-size:2.2rem;
+    display:block;
+    color:#fff;
+    border:1px #bbf9ed solid;
+    border-radius:30px;
+    background-color:#99e0be;
+    box-shadow:inset 5px 5px 5px 0px #4ea97d;
+    font-family: 'Indie Flower';
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.IRE-blog-link:hover {
+    color:#fff;
+    text-shadow:2px 2px 5px #4ea97d;
+    box-shadow:inset 5px 5px 15px 0px #4ea97d;
+    -webkit-transition: all 0.2s ease-in;
+    -webkit-transform: scale(1.2);
+    -moz-transition: all 0.2s ease-in;
+    -moz-transform: scale(1.2);
+    -o-transition: all 0.2s ease-in;
+    -o-transform: scale(1.2);
+    transition: all 0.2s ease-in;
+    transform: scale(1.2);   
+}
+.IRE-give_away-link {
+    background-color: #99e0be;
+    border: 1px solid #bbf9ed;
+    border-radius: 30px;
+    bottom: -27px;
+    box-shadow: 5px 5px 5px 0 #4ea97d inset;
+    color: #fff;
+    display: block;
+    font-family: "Indie Flower";
+    font-size: 2.2rem;
+    font-weight: 700;
+    height: 54px;
+    line-height: 54px;
+    position: absolute;
+    right: 80px;
+    text-align: center;
+    transition: all 0.2s ease-in 0s;
+    width: 100px;
+    z-index: 1;
+}
+
+.IRE-give_away-link:hover {
+    color:#fff;
+    text-shadow:2px 2px 5px #4ea97d;
+    box-shadow:inset 5px 5px 15px 0px #4ea97d;
+    -webkit-transition: all 0.2s ease-in;
+    -webkit-transform: scale(1.2);
+    -moz-transition: all 0.2s ease-in;
+    -moz-transform: scale(1.2);
+    -o-transition: all 0.2s ease-in;
+    -o-transform: scale(1.2);
+    transition: all 0.2s ease-in;
+    transform: scale(1.2);
+}
+
+
+.IRE-header-contact {
+    z-index:11;
+    margin: 10px 0;
+}
+.IRE-header-phone {
+    font-size:22px;font-size:2.2rem;
+    font-weight:700;
+    text-align: left;
+    margin-left: 35px;
+}
+.IRE-header-phone::before {
+    display: block;
+    content: '';
+    height: 29px;
+    width: 14px;
+    background-position: -166px -141px;
+    position:absolute;
+    left:10px;
+    top:0;
+}
+.IRE-main-content {
+    margin:20px 0;
+}
+footer {
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color:#5c2128;
+    color:#ffffff;
+    box-shadow:inset 0px 20px 20px 0px #550913;
+    position: relative;
+    overflow:hidden;
+    min-height:200px;
+}
+footer::before {
+    content: "";
+    display: block !important;
+    background-color: #550913;
+    box-shadow: 0 0 40px 40px #6f121e;
+    height: 600px;
+    width: 600px;
+    border-radius: 300px;
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    opacity:0.5;
+}
+.IRE-footer-links {
+    float:left;
+    position:relative;
+    margin:10px 0;
+    clear:both;
+    display:block;
+}
+.IRE-footer-links li {
+    padding:0 10px;
+    float:left;
+    border-right:1px #ffffff solid;
+}
+.IRE-footer-links li:last-child {
+    border-right:none;
+}
+.IRE-footer-links li a {
+    color:#ffffff;
+    padding:0 10px;
+}
+.IRE-footer-links li .active {
+    border-bottom: 2px #fff solid;
+}
+.IRE-slide-BG {
+    height: 300px;
+    padding: 10px 0;
+    margin: 10px auto;
+    background-image: url('../img/home/IREBG-img.png');
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+}
+.service-container {
+    margin-bottom:10px;
+}
+.IRE-services-list li {
+    background-color:#000;
+}
+#IRE-rates-acc {
+    float:left;
+}
+.IRE-acc-header {
+    font-weight:700;
+    background-color:#99e0be;
+    color:#5C2128;
+    width:100%;
+    float:left;
+    height:40px;
+    line-height:40px;
+    padding-left:15px;
+    cursor:pointer;
+    margin: 0 0 10px 0;
+    position:relative;
+    border-radius:20px;
+    z-index:10;
+}
+.IRE-acc-header:focus {
+    border:none;
+}
+.IRE-acc-header::after {
+    background-position:-5px -186px;
+    content:"";
+    height:40px;
+    width:40px;
+    position: absolute;
+    top:0;
+    right:5px;
+}
+.ui-state-active.IRE-acc-header::after {
+    background-position:-49px -185px;
+}
+.ui-accordion-content {
+    float:left;
+    width:100%;
+    background-color:#F6FFFB;
+    border-radius:20px;
+    padding:10px 0 20px 0;
+}
+
+#IRE-contact-form input[type="text"],#IRE-contact-form input[type="email"], #IRE-contact-form textarea {
+    width:100%;
+    border-radius:10px;
+    height:40px;
+    line-height:40px;
+    font-size:14px;font-size:1.4rem;
+    font-weight:400;
+    border:1px #bbf9ed solid;
+    padding:0 10px;
+}
+#IRE-contact-form textarea {
+    height:100px;
+    resize: none;
+}
+#IRE-contact-form input[type="submit"] {
+    color:#fff;
+    background-color:#99e0be;
+    line-height: 40px;
+    border-radius: 25px;
+    height:40px;
+    border:none;
+    margin-top:10px;
+    width:100%;
+    font-size:18px;font-size:1.8rem;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+#IRE-contact-form input[type="submit"]:hover {
+    background-color: #5C2128;
+}
+#IRE-contact-map {
+    width:100%;
+    margin:10px 0;
+}
+#IRE-contact-map img {
+    width:100%;
+    margin-top: -20%;
+}
+.IRE-map-control {
+    margin:15px auto;
+    z-index:10;
+    width:280px !important;
+    position:relative;
+}
+.IRE-map-control::before, .IRE-map-control::after {
+    position:absolute;
+    top:-10px;
+    font-size:30px;
+    font-weight:700;
+    line-height:30px;
+    color:#5C2128;
+}
+.IRE-map-control::before {
+    left:-25px;
+    content:"-";
+}
+.IRE-map-control::after {
+    right:-25px;
+    content:"+";
+}
+input[type='range'] {
+    -webkit-appearance: none;
+    border-radius: 5px;
+    background-color: #bbf9ed ;
+    height: 10px;
+    vertical-align: middle;
+}
+input[type='range']::-moz-range-track {
+    -moz-appearance: none;
+    border-radius: 5px;
+    background-color: #bbf9ed;
+    height: 10px;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    border-radius: 20px;
+    background-color: #5C2128;
+    border: 1px solid #bbf9ed;
+    height: 20px;
+    width: 20px;
+}
+input[type='range']::-moz-range-thumb {
+    -moz-appearance: none;
+    border-radius: 20px;
+    background-color: #5C2128;
+    border: 1px solid #bbf9ed;
+    height: 20px;
+    width: 20px;
+}
+
+.lb-data .lb-close {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.cropit-image-preview {
+    border:1px #bbf9ed solid;
+    width:100%;
+    border-radius:10px;
+    min-height:300px;
+    cursor:move;
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+    .IRE-wrapper {
+        padding-top:45px;
+    }
+    .IRE-navigation {
+        background-color:#761622;
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        max-height:40px;
+        overflow: hidden;
+        border-bottom: none;
+        z-index:200;
+        box-shadow: 0 0 10px 0 #000;
+        -webkit-transition:max-height 0.2s linear;
+        -moz-transition:max-height 0.2s linear;
+        -o-transition:max-height 0.2s linear;
+        transition:max-height 0.2s linear;
+    }
+    .IRE-navigation::before {
+        content: "";
+        display: block !important;
+        background-color: #690b17;
+        box-shadow: 0 0 40px 40px #8e1a28;
+        height: 600px;
+        width: 600px;
+        border-radius: 300px;
+        position: absolute;
+        top :0;
+        right: -300px;
+        opacity:0.3;
+    }
+    .IRE-nav-list {
+        margin:0;
+        padding:0;
+        width:100%;
+        height:auto;
+    }
+    .IRE-nav-list li,.IRE-nav-list li a,.IRE-blog-link, .IRE-give_away-link {
+        position:relative;
+        display:block;
+        clear:both;
+        color:#fff;
+        width:100%;
+        margin:0;
+        height:40px;
+        line-height:40px;
+        font-size:14px;
+        font-weight:400;
+        text-align:left;
+        font-family: 'Merriweather Sans',Trebuchet MS, Helvetica, sans-serif;;
+    }
+    .IRE-nav-list li {
+        padding:0;
+        border-bottom: 1px #550913 solid;
+    }
+    .IRE-nav-list li .active, .IRE-nav-list li a:hover, .IRE-blog-link:hover, .IRE-give_away-link:hover {
+        background-color: #550913;
+        box-shadow: none;
+        border-radius:0;
+        border-bottom:1px #49060e solid;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+    .IRE-blog-link {
+        bottom:0;
+        border: none;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none;
+        padding-left:15px;
+    }
+    .IRE-blog-link:hover {
+        box-shadow: none;
+        background-color: #550913;
+        -webkit-transform: scale(1);
+
+    }
+    .IRE-give_away-link {
+        bottom:0;
+        border: none;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none;
+        padding-left:15px;
+	right: 0;
+    }
+    .IRE-give_away-link:hover {
+        box-shadow: none;
+        background-color: #550913;
+        -webkit-transform: scale(1);
+
+    }
+    .IRE-menu-expand::before {
+        content:"";
+        height: 40px;
+        width: 165px;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        background-position: -10px -90px;
+    }
+    .IRE-header-sm-list, .IRE-header-contact {
+        float:none;
+        margin:10px auto;
+        width: 240px;
+        height: 40px;
+        text-align:center;
+    }
+    .IRE-header-sm-list li {
+        margin: 0 10px;
+    }
+    .IRE-header-phone {
+        font-size:26px;font-size:2.6rem;
+        line-height:30px;
+    }
+    .IRE-navigation.menu-expand {
+        max-height:400px;
+        -webkit-transition:max-height 0.4s ease-out;
+        -moz-transition:max-height 0.4s ease-out;
+        -o-transition:max-height 0.4s ease-out;
+        transition:max-height 0.4s ease-out;
+    }
+    .IRE-mob-menu .IRE-menu-stick {
+        background-color: #fff;
+        height: 4px;
+        width: 28px;
+        right:12px;
+        display: block;
+        position: absolute;
+        -webkit-transform-origin: left;
+        -moz-transform-origin: left;
+        -ms-transform-origin: left;
+        -o-transform-origin: left;
+        transform-origin: left;
+    }
+    .IRE-mob-menu {
+        position:absolute;
+        height:40px;
+        width:50px;
+        display:block;
+        cursor: pointer;
+        right:0;
+        top:0;
+    }
+    .IRE-mob-menu .IRE-menu-stick:nth-child(1) {
+        top:9px;
+    }
+    .IRE-mob-menu .IRE-menu-stick:nth-child(2) {
+        top: 18px
+    }
+    .IRE-mob-menu .IRE-menu-stick:nth-child(3) {
+        top: 27px
+    }
+    .menu-expand .IRE-mob-menu .IRE-menu-stick:nth-child(1) {
+        -webkit-animation: anistick1 .1s linear 1;
+        -webkit-transform: rotate(45deg);
+        -moz-animation: anistick1 .1s linear 1;
+        -moz-transform: rotate(45deg);
+        -ms-animation: anistick1 .1s linear 1;
+        -ms-transform: rotate(45deg);
+        -o-animation: anistick1 .1s linear 1;
+        -o-transform: rotate(45deg);
+        animation: anistick1 .1s linear 1;
+        transform: rotate(45deg);
+        top: 8px;
+    }
+    @-webkit-keyframes anistick1 {
+        0% {top: 9px;-webkit-transform: rotate(0deg)}
+        100% {top: 8px;-webkit-transform: rotate(45deg)}
+    }
+    @-moz-keyframes anistick1 {
+        0% {top: 9px;-moz-transform: rotate(0deg)}
+        100% {top: 8px;-moz-transform: rotate(45deg)}
+    }
+    @keyframes anistick1 {
+        0% {top: 9px;transform: rotate(0deg)}
+        100% {top: 8px;transform: rotate(45deg)}
+    }
+    .menu-expand .IRE-mob-menu .IRE-menu-stick:nth-child(2) {
+        display:none;
+    }
+    .menu-expand .IRE-mob-menu .IRE-menu-stick:nth-child(3) {
+        -webkit-animation: anistick3 .1s linear 1;
+        -webkit-transform: rotate(-45deg);
+        -moz-animation: anistick3 .1s linear 1;
+        -moz-transform: rotate(-45deg);
+        -ms-animation: anistick3 .1s linear 1;
+        -ms-transform: rotate(-45deg);
+        -o-animation: anistick3 .1s linear 1;
+        -o-transform: rotate(-45deg);
+        animation: anistick3 .1s linear 1;
+        transform: rotate(-45deg);
+        top: 28px
+    }
+    @-webkit-keyframes anistick3 {
+        0% {top: 27px;-webkit-transform: rotate(0deg)}
+        100% {top: 28px;-webkit-transform: rotate(-45deg)}
+    }
+    @-moz-keyframes anistick3 {
+        0% {top: 27px;-moz-transform: rotate(0deg)}
+        100% {top: 28px;-moz-transform: rotate(-45deg)}
+    }
+    @keyframes anistick3 {
+        0% {top: 27px;transform: rotate(0deg)}
+        100% {top: 28px; transform: rotate(-45deg)}
+    }
+    .IRE-footer-links {
+        width:100%;
+    }
+    .IRE-footer-links li {
+        display:inline-block;
+        text-align:center;
+        margin:5px 0;
+        width:50%;
+        border:none;
+    }
+    .IRE-footer-links li a {
+        padding:0 5px;
+    }
+    .service-container {
+        margin:0 10px 10px;
+    }
+    .service-container ul {
+        //        border-bottom:1px #761622 solid;
+        padding-bottom: 10px;
+    }
+    .service-inner {
+        min-height: 0;
+    }
+
+    .service-img {
+        display:none;
+    }
+    .IRE-acc-header {
+        font-size:20px;font-size:2rem;
+        line-height:25px;
+        margin:5px 0;
+    }
+    .IRE-acc-header .min_hour {
+        position: absolute;
+        right: 45px;
+        height: 40px;
+        line-height: 62px;
+    }
+    #IRE-contact-map img {
+        margin-top: 0;
+    }
+    .IRE-slide-BG {
+        background-position:0 40%;
+    }
+    input[type='range']::-webkit-slider-thumb {
+        height: 35px;
+        width: 35px;
+    }
+    input[type='range']::-moz-range-thumb {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+/* Sprite sheet */
+.IRE-logo,.IRE-header-sm-list li a,.IRE-header-phone::before,.IRE-menu-expand::before,.IRE-acc-header::after {
+    background-image: url("../img/IRE-sprite-sta.png");
+    background-size: 375px 250px;
+    background-repeat: no-repeat;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+    .IRE-logo,.IRE-header-sm-list li a,.IRE-header-phone::before,.IRE-menu-expand::before,.IRE-acc-header::after {
+        background-image: url("../img/IRE-sprite-ret.png");
+        background-size: 375px 250px;}
+
+}
